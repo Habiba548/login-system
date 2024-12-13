@@ -1,0 +1,16 @@
+body {
+    background: #24353f;
+}
+
+.my-nav {
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+
+.navBar{
+    color: rgba(255, 255, 255, .5);
+}
+
+.navBar:hover{
+    background-color: #FFC107;
+    color: white;
+}

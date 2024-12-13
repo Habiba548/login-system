@@ -1,0 +1,59 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Login</title>
+
+    <!-- ==========bootstrap========== -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+
+    <!-- ==========my css========== -->
+    <link rel="stylesheet" href="./css/style.css">
+
+
+</head>
+
+<body>
+
+
+<section class="container">
+
+<div class="m-auto box p-5 w-75 ">
+
+<h1 class="text-center p-3 text-info">Smart Login System</h1>
+
+<input class="form-control my-3  pass" id="signUpName" oninput="ValidateName()" type="text" placeholder="Enter your name"  >
+<input class="form-control my-3  pass" id="signUpEmail" oninput="ValidateEmail()" type="text" placeholder="Enter your email"  >
+<input class="form-control my-3 pass" id="signUppassword" type="password" placeholder="Enter your password">
+<p id="exist" class="text-center"> </p>
+
+<button class="btn btn-outline-info w-100 my-4" onclick="signUp()" >Sign Up</button>
+
+
+<P class="text-white text-center fs-5">Don’t have an account?
+     <a href="index.html" class="text-decoration-none text-white">sign in</a> </P>
+
+</div>
+
+</section>
+
+<!-- <button class="test">test</button> -->
+
+
+
+
+
+    <!-- ==========bootstrap ja========== -->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+
+    <!-- ==========my js========== -->
+    <script src="./js/about.js"></script>
+
+</body>
+
+</html>   
+    
